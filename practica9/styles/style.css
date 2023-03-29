@@ -1,0 +1,217 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+
+main a{
+    color: blue;
+}
+header{
+    background-color: #3e9cdb;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: start;
+    padding: 1em;
+    align-items: center;
+}
+
+header>a:nth-child(1){
+    padding: 0 2em 0 3em;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+header a{
+    
+    text-decoration: none;
+    color: white
+}
+header ul{
+    
+    align-self:center;
+    gap: 2em;
+    white-space: nowrap;
+    display: flex;
+
+}
+ header nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+.principal{
+    display: flexbox;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1.5em;
+}
+
+.opciones{
+    margin: 0.7em;
+    padding: 0.5em;
+    background-color: #f1f1f0;
+    width: 100%;
+}
+
+.principal a{
+    text-decoration: none;
+}
+
+.principal h2{
+    margin: 1em;
+    font-size: 1.5em;
+}
+
+.tabla{
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.principal p a {
+    margin-top: 1em;
+    padding: 0.5em;
+    background-color: #3e9cdb;
+    color: white;
+}
+
+.medinf{
+    float: left;
+    padding-bottom: 1em;
+    width: 100%;
+}
+.rightt{
+    float: right;
+}
+
+.leftt{
+    float: left;
+}
+
+.izquierda{
+    flex-direction: row-reverse;
+    float: left;
+    width: 20%;
+}
+
+.derecha{
+    flex-direction:row-reverse;
+    float: right;
+    width: 20%;
+    margin-left: 3%;
+}
+
+.juan{
+    background-color: #e9ddc3;
+    margin-bottom: 1.5em;
+    padding: 1.2em;
+    width: 100%;
+    color: gray;
+}
+
+.izquierda nav{
+    background-color: #f1f1f0;
+    padding: 1.2rem;
+    width: 100%;
+    margin-bottom: 1.5em;
+}
+.izquierda nav ul{
+    list-style-type: none;
+    line-height: 1.7;
+
+}
+
+.mensajes{
+    background-color: #f1f1f0;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mensajes h3{
+    background-color: #b7cfe7;
+    padding: 0.7em;
+}
+
+.mensajes ul{
+    background-color: white;
+    list-style-type: none;
+    padding: 0.5em;
+
+}
+.mensajes ul img{
+    padding-right: 1em;
+    margin: 0.2em;
+    float: left;
+}
+.mensajes ul li{
+    padding: 1em;
+}
+
+.cambios{
+    width: 100%;
+    background-color: #f1f1f0;
+    padding: 1em;
+    margin: 0.5em 0.3em 2em 0;
+    
+}
+
+.cambios h3{
+    background-color: #b7cfe7;
+    padding: 1em;
+}
+
+.cambios ul{
+    background-color: white;
+    list-style-type: none;
+    font-size: 1em;
+    padding: 1em 2em ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cambios li{
+    padding: 1em 0 ;
+}
+
+.cambios span{
+    font-size: 1.2em;
+}
+
+.cambios p{
+    float: right;
+}
+
+.vendidos{
+    width: 100%;
+    background-color: #f1f1f0;
+    padding: 1em;
+}
+
+.vendidos h3{
+    background-color: #b7cfe7;
+    padding: 1em;
+}
+
+.vendidos ul{
+    list-style-type:none;
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.vendidos li img{
+    float: left;
+}
+.vendidos li p{
+    float: left;
+}
